@@ -13,7 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className="bg-gray-950 text-gray-100">{children}</body>
+      <body className="bg-[url('https://img.olhardigital.com.br/wp-content/uploads/2020/12/shutterstock_742438120.jpg')]
+      backdrop-blur-sm text-gray-100 h-screen shadow-lg">{children}</body>
     </html>
   );
 }

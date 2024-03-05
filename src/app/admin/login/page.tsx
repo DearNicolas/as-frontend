@@ -34,7 +34,7 @@ const Page = () => {
 
     return (
         <div className="text-center py-4">
-            <p className="text-lg">Qual a senha secreta?</p>
+            <p className="text-xl font-serif">Qual a senha secreta?</p>
             <div className="mx-auto max-w-lg">
                 <InputField
                     type="password"
@@ -50,7 +50,7 @@ const Page = () => {
                     disabled={loading}
                 />
                 {warning &&
-                    <div className="border border-dashed border-gray-400 p-3">{warning}</div>
+                    <div className="border border-dashed border-gray-400 p-3 font-serif">{warning}</div>
                 }
             </div>
         </div>

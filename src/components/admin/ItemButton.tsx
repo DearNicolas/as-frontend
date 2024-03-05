@@ -12,7 +12,7 @@ type Props = {
 export const ItemButton = ({ IconElement, label, onClick, href, target, replace }: Props) => {
 
     const content = (
-        <div className="p-3 flex flex-col justify-center items-center gap-2 md:flex-row">
+        <div className="p-3 flex flex-col justify-center bg-gray-800 items-center gap-2 md:flex-row ">
             <div><IconElement /></div>
             {label && <div>{label}</div>}
         </div>

@@ -43,7 +43,7 @@ export const AdminPage = () => {
                     onClick={() => setModalScreen('add')}
                 />
             </div>
-            <div className="my-3">
+            <div className="my-4 text-xl ">
                 {!loading && events.length > 0 && events.map(item => (
                     <EventItem
                         key={item.id}

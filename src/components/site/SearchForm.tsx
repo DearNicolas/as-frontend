@@ -25,7 +25,7 @@ export const SearchForm = ({ onSearchButton, loading }: Props) => {
                 disabled={loading}
             />
             <button
-                className="w-full p-3 rounded-lg bg-blue-800 text-white text-4xl border-b-4 border-blue-600 disabled:opacity-20"
+                className="w-full p-3 rounded-lg bg-red-600 text-white text-4xl border-b-4 border-white disabled:opacity-20 mt-3"
                 onClick={() => onSearchButton(cpfInput)}
                 disabled={loading}
             >{loading ? 'Buscando...' : 'Entrar'}</button>
