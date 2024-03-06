@@ -19,7 +19,7 @@ export const InputField = ({ type, value, onChange, placeholder, disabled, error
                 placeholder={placeholder}
                 disabled={disabled}
                 className={`w-full block text-lg p-3 outline-none rounded
-                bg-gray-900 text-white
+                bg-gradient-to-r from-black to-gray-300 text-white
                 border-b-2 ${errorMessage ? 'border-red-600' : 'border-gray-900'}
                 focus:border-white`}
             />

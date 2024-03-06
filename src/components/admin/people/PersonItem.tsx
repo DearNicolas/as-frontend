@@ -17,7 +17,7 @@ export const PersonItem = ({ item, refreshAction, onEdit }: Props) => {
     }
 
     return (
-        <div className="border border-gray-700 bg-gray-900 rounded p-3 mb-3 flex items-center">
+        <div className="border border-white bg-black rounded p-3 mb-3 flex items-center">
             <div className="flex-1">{item.name} (CPF: {item.cpf})</div>
             <ItemButton
                 IconElement={FaRegEdit}

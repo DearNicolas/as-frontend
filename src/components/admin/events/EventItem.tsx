@@ -20,7 +20,7 @@ export const EventItem = ({ item, refreshAction, openModal }: Props) => {
 
     const handleEditButton = () => openModal(item);
     return (
-        <div className="border border-orange-600 rounded p-3 mb-3 flex flex-col items-center bg-gray-800 md:flex-row">
+        <div className="border border-white rounded p-3 mb-3 flex flex-col items-center md:flex-row">
             <div className="flex-1 text-xl md:text-base">{item.title}</div>
             <div className="flex items-center gap-1 mt-2 md:mt-0">
                 {item.status &&

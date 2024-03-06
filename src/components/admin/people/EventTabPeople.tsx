@@ -54,7 +54,7 @@ export const EventTabPeople = ({ eventId }: Props) => {
                 {!groupLoading && groups.length > 0 &&
                     <select
                         onChange={e => setSelectedGroupId(parseInt(e.target.value))}
-                        className="w-full bg-gray-800 text-xl p-3 outline-none"
+                        className="w-full bg-black text-xl p-3 outline-none"
                     >
                         <option value={0}>Selecione um Grupo</option>
                         {groups.map(item => (

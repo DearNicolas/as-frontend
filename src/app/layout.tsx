@@ -13,8 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className="bg-[url('https://img.olhardigital.com.br/wp-content/uploads/2020/12/shutterstock_742438120.jpg')]
-      backdrop-blur-sm text-gray-100 h-screen shadow-lg">{children}</body>
+      <body className="bg-[url('https://urbanarts.vteximg.com.br/arquivos/ids/5281089-1000-1000/39_Ampliada.jpg?v=637221580477500000')]
+       backdrop-blur-[2px] backdrop-brightness-40 text-gray-100 h-screen shadow-lg">{children}</body>
     </html>
   );
 }
