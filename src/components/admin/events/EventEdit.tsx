@@ -18,9 +18,9 @@ export const EventEdit = ({ event, refreshAction }: Props) => {
     return (
         <div>
             <div className="flex text-center border-b border-white cursor-pointer">
-                <div onClick={() => setTab('info')} className={`flex-1 p-3 hover:bg-gradient-to-r from-white to-black ${tab === 'info' ? 'bg-gradient-to-r from-black to-white ' : ''}`}>Informações</div>
-                <div onClick={() => setTab('groups')} className={`flex-1 p-3 hover:bg-gradient-to-r from-black via-gray-300 to-black  ${tab === 'groups' ? 'bg-gradient-to-r from-black to-white ' : ''}`}>Grupos</div>
-                <div onClick={() => setTab('people')} className={`flex-1 p-3 hover:bg-gradient-to-r from-black to-white  ${tab === 'people' ? 'bg-gradient-to-r from-black to-white ' : ''}`}>Pessoas</div>
+                <div onClick={() => setTab('info')} className={`flex-1 p-3 hover:bg-zinc-700  ${tab === 'info' ? 'bg-zinc-800' : ''}`}>Informações</div>
+                <div onClick={() => setTab('groups')} className={`flex-1 p-3 hover:bg-zinc-700  ${tab === 'groups' ? 'bg-zinc-800' : ''}`}>Grupos</div>
+                <div onClick={() => setTab('people')} className={`flex-1 p-3 hover:bg-zinc-700  ${tab === 'people' ? 'bg-zinc-800' : ''}`}>Pessoas</div>
             </div>
             <div>
                 {tab === 'info' && <EventTabInfo event={event} refreshAction={refreshAction} />}

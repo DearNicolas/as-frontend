@@ -9,9 +9,11 @@ export const Button = ({ value, onClick, disabled }: Props) => {
         <button
             onClick={onClick}
             className="w-full my-3 p-3 rounded
-            bg-gradient-to-r from-white to-gray-600 text-white text-center uppercase font-bold
-            hover:from-gray-600 hover:to-white
-            border-b-4 border-white/10 shadow-inner"
+            text-white text-center uppercase font-bold
+            transition ease-in-out delay-150 bg-zinc-900 hover:-translate-y-1 hover:scale-110 hover:bg-zinc-700 duration-300 
+            hover:border-gray-300 hover:border-y-zinc-800
+            border-4 border-gray-300 border-x-zinc-800 
+            md:transform-none"
             disabled={disabled}
         >{value}</button>
     )

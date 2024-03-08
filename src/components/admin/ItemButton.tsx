@@ -19,7 +19,7 @@ export const ItemButton = ({ IconElement, label, onClick, href, target, replace 
     )
 
     return (
-        <div className="rounded hover:bg-gradient-to-r from-gray-300 to-black">
+        <div className="rounded hover:transition-transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
             {href && !onClick &&
                 <Link
                     href={href}

@@ -25,8 +25,9 @@ export const SearchForm = ({ onSearchButton, loading }: Props) => {
                 disabled={loading}
             />
             <button
-                className="w-full p-3 rounded-lg bg-gradient-to-r from-gray-300 to-black text-white text-4xl
-                border-b-4 border-white disabled:opacity-20 mt-3 hover:from-black hover:via-gray-300 hover:to-black"
+                className="w-full p-3 rounded-lg text-white text-4xl
+                border-b-4 border-white disabled:opacity-20 mt-3 transition ease-in-out delay-150 bg-zinc-700 
+                hover:-translate-y-1 hover:scale-110 hover:bg-zinc-800 duration-300"
                 onClick={() => onSearchButton(cpfInput)}
                 disabled={loading}
             >{loading ? 'Buscando...' : 'Entrar'}</button>

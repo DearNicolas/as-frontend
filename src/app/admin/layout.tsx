@@ -9,7 +9,7 @@ type Props = { children: ReactNode }
 const Layout = ({ children }: Props) => {
     return (
         <div>
-            <header className="bg-gradient-to-r from-black via-gray-300 to-black text-center py-5 brightness-90 shadow-2xl rounded text-white">
+            <header className="bg-gradient-to-r from-black via-gray-300 to-black text-center py-5 brightness-90 shadow-2xl rounded text-black">
                 <h3 className="text-3xl font-serif">Amigo Secreto</h3>
                 <h4 className="text-md font-serif">Painel de Controle</h4>
             </header>
